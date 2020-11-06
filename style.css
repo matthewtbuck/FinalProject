@@ -1,0 +1,97 @@
+body {
+  font-family:Arial;
+}
+h1 {
+  color:red;
+}
+
+#me {
+  float:right;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  height:350px;
+  margin-right:100px;
+}
+/*Makes my dumb face follow you while you scroll*/
+
+h2 {
+  color:red;
+}
+/*Changes the font color of all h2 elements to red*/
+
+.gradient {
+  background-image: linear-gradient( to bottom right,white,#b19cd9);
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
+/*This calls upon the gradient class that I established in my html in order to make the background a nonrepeating gradient*/
+img {
+  height:250px;
+}
+/*This is how I adjusted my image size*/
+#photography {
+  margin-right:750px;
+}
+
+#photography2 {
+  margin-right:600px;
+}
+/*This is how I forced my text to end where it does and allow the image to be where it is*/
+
+.edwards {
+  float:right;
+  margin-right:500px;
+  margin-left:20px;
+  margin-bottom:40px;
+animation: fadeIn ease 5s;
+-webkit-animation: fadeIn ease 5s;
+-moz-animation: fadeIn ease 5s;
+-o-animation: fadeIn ease 5s;
+-ms-animation: fadeIn ease 5s;
+}
+/*This calls upon the class that I made for my image, "edwards." It causes the image to float to the right of the text, and the margins determine its position on the page. The rest determines the way the animation on the image functions.*/
+
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+/*General keyframes*/
+
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+/*Keyframes for Firefox*/
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+/*Keyframes for Chrome*/
+
+@-o-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+/*Keyframes for Opera*/
+
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+/*Keyframes for Safari*/
+
+#cooking {
+  margin-right:600px;
+}
+
+#games {
+  margin-right:600px;
+}
+
+#endtext {
+  margin-right:600px;
+  font-size:20px;
+  font-family:Verdana
+}
